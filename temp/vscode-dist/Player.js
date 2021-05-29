@@ -1,8 +1,4 @@
 "use strict";
-cc._RF.push(module, '7de15bFXXlPjYJhJrdSZp8x', 'Player');
-// scripts/Player.ts
-
-"use strict";
 // Learn TypeScript:
 //  - https://docs.cocos.com/creator/manual/en/scripting/typescript.html
 // Learn Attribute:
@@ -17,6 +13,8 @@ var __extends = (this && this.__extends) || (function () {
         return extendStatics(d, b);
     };
     return function (d, b) {
+        if (typeof b !== "function" && b !== null)
+            throw new TypeError("Class extends value " + String(b) + " is not a constructor or null");
         extendStatics(d, b);
         function __() { this.constructor = d; }
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
@@ -77,7 +75,6 @@ var NewClass = /** @class */ (function (_super) {
         return cc.tween().repeatForever(tween);
     };
     NewClass.prototype.onKeyDown = function (event) {
-        console.log(event);
         // set a flag when key pressed
         switch (event.keyCode) {
             case cc.macro.KEY.a:
@@ -143,5 +140,3 @@ var NewClass = /** @class */ (function (_super) {
     return NewClass;
 }(cc.Component));
 exports.default = NewClass;
-
-cc._RF.pop();

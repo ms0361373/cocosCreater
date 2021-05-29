@@ -564,14 +564,14 @@
     "meta": 1622275270930,
     "relativePath": "scripts"
   },
-  "7de156c5-5d79-4f8d-8261-26b752669f31": {
-    "asset": 1622275292401,
-    "meta": 1622275294005,
-    "relativePath": "scripts\\Player.ts"
-  },
   "74b7b403-e471-4f37-a9af-68b13fe32494": {
     "asset": 1622275380442,
     "meta": 1622275697817,
     "relativePath": "scripts\\Player.js"
+  },
+  "7de156c5-5d79-4f8d-8261-26b752669f31": {
+    "asset": 1622276782464,
+    "meta": 1622276785011,
+    "relativePath": "scripts\\Player.ts"
   }
 }
