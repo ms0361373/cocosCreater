@@ -1,0 +1,112 @@
+{
+  "version": "1.1.1",
+  "windows": {
+    "main": {
+      "main": true,
+      "url": "app://editor/index.html",
+      "windowType": "dockable",
+      "x": 0,
+      "y": 0,
+      "width": 1536,
+      "height": 864,
+      "layout": {
+        "type": "dock-h",
+        "children": [
+          {
+            "width": 204,
+            "height": 750.2000122070312,
+            "type": "dock-v",
+            "children": [
+              {
+                "width": 204,
+                "height": 258.9125061035156,
+                "type": "panel",
+                "active": 0,
+                "children": [
+                  "hierarchy"
+                ]
+              },
+              {
+                "width": 204,
+                "height": 488.2875061035156,
+                "type": "panel",
+                "active": 0,
+                "children": [
+                  "assets",
+                  "cloud-function"
+                ]
+              }
+            ]
+          },
+          {
+            "width": 1008.4000244140625,
+            "height": 750.2000122070312,
+            "type": "dock-v",
+            "children": [
+              {
+                "width": 1008.4000244140625,
+                "height": 481.20001220703125,
+                "type": "dock-h",
+                "children": [
+                  {
+                    "width": 597.3250122070312,
+                    "height": 481.20001220703125,
+                    "type": "panel",
+                    "active": 0,
+                    "children": [
+                      "scene"
+                    ]
+                  },
+                  {
+                    "width": 408.07501220703125,
+                    "height": 481.20001220703125,
+                    "type": "panel",
+                    "active": 0,
+                    "children": [
+                      "node-library"
+                    ]
+                  }
+                ]
+              },
+              {
+                "width": 1008.4000244140625,
+                "height": 266,
+                "type": "panel",
+                "active": 0,
+                "children": [
+                  "console",
+                  "timeline",
+                  "game-window"
+                ]
+              }
+            ]
+          },
+          {
+            "width": 304,
+            "height": 750.2000122070312,
+            "type": "panel",
+            "active": 0,
+            "children": [
+              "inspector",
+              "cocos-services"
+            ]
+          }
+        ]
+      },
+      "panels": [
+        "hierarchy",
+        "assets",
+        "cloud-function",
+        "scene",
+        "node-library",
+        "console",
+        "timeline",
+        "game-window",
+        "inspector",
+        "cocos-services"
+      ]
+    }
+  },
+  "panels": {},
+  "panelLabelWidth": {}
+}
